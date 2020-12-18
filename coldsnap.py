@@ -410,8 +410,8 @@ def CheckFuzzResult(process):
 ### of our snapshot fuzzer, our target location and arguments, our coverage and
 ### corpus cache   
 class target:
-    startpoint   = "startf"  # how symbol name for startpoint (will get replaced with virtual address)
-    endpoint     = "endf"    # how symbol name for endpoint (will get replaced with virtual address)
+    startpoint   = "startf"  # our symbol name for startpoint (will get replaced with virtual address)
+    endpoint     = "endf"    # our symbol name for endpoint (will get replaced with virtual address)
     name         = "target"  # our target name
     payload      = b'----------------'
     targetArgs   = [b'./'+name.encode() ,payload]
