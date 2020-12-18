@@ -446,7 +446,7 @@ if __name__ == "__main__":
    
     print ("\nStarting Snapshot Fuzzer...\n")
     target.starttime = datetime.datetime.now()
-    print ("Corpus discovery coverage grows:")
+    print ("Corpus discovery coverage growth:")
     
     ### Behold, our "tight" fuzzer loop
     while (1):
