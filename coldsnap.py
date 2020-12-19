@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 #
 ############################################################################
 # Coldsnap is a "Hello World" example of a snapshot fuzzer built in python #
